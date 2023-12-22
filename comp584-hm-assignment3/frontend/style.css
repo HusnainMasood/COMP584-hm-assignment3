@@ -1,0 +1,56 @@
+.businesses {
+    max-width: 1275px;
+    width: 200%;
+    margin: 60px;
+    height: auto;
+    display: block;
+}
+
+html {
+    background-color: beige;
+}
+
+body {
+    color: darkslategray;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bus_group {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.bus_group2 {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.bus_group3 {
+    float: left;
+    padding-left: 80px;
+    font-size: 15px;
+    display: block;
+}
+
+label {
+    float: left;
+    padding-left: 60px;
+    display: block;
+    width: 208px;
+}
+
+.businessFilter {
+    float: left;
+    padding-left: 348px;
+    display: block;
+}
+
+textarea {
+    width: 165px;
+    height: 70px;
+}

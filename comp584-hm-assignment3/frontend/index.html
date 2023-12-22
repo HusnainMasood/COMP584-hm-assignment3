@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Business Filter </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <h2>Business Filter</h2>
+    <form>
+        <div class="businesses">
+            <div class="bus_group">
+                <label>Business ID:</label> 
+                <input type="text" placeholder="Enter Business ID"/><br>
+            </div>
+            <div class="bus_group">
+                <label>Business Name:</label> 
+                <input type="text" placeholder="Enter Business Name"/><br>
+            </div>
+            <div class="bus_group">
+                <label>Address:</label> 
+                <textarea></textarea>
+                <br>
+            </div>
+            <div class="bus_group">
+                <label>City:</label> 
+                <input type="text" placeholder="Enter City"/><br>
+            </div>
+            <div class="bus_group">
+                <label>State:</label> 
+                <input type="text" placeholder="Enter State"/><br>
+            </div>
+            <div class="bus_group">
+                <label>Postal Code:</label> 
+                <input type="text" placeholder="Enter Postal Code"/><br>
+            </div>
+            <div class="bus_group">
+                <label>Stars:</label> 
+                <input type="text" placeholder="Enter Amount of Stars"/><br>
+            </div>
+            <div class="bus_group">
+                <label>Review:</label> 
+                <input type="text" placeholder="Enter the Amount of Reviews"/><br>
+            </div>
+            <div class="bus_group2">
+                <label>Open:</label><br>              
+                <input type="radio" id="0" name="open_for" value="Zero">
+                <label for="0">0</label><br>
+                <input type="radio" id="1" name="open_for" value="One">
+                <label for="1">1</label>
+            </div>
+            </div>
+            <div class="bus_group3">
+                <label>Categories:</label>
+                <textarea></textarea>
+                <br>
+            </div>     
+        </div>
+    </form>
+
+    <br>
+
+    <div class="businessFilter">
+        <input type="text" id="filterInput" placeholder="Enter filter criteria">
+        <button onclick="filterBusiness()">Filter</button>
+    </div>
+    
+
+    <div id="results"></div>
+
+    <script src="app.js"></script>    
+</body>
+</html>
